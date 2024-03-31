@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body {
+    background: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  #myBtn {
+    display: none;  /*Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #4a4330; /* Add a dark-grey background on hover */
+  }
+  .iot-section{
+    position: relative;
+  }
+  #iot-back-button{
+    display: none;  /*Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+
+
+  .qc-section{
+    position: relative;
+  }
+  #qc-back-button{
+    display: none;  /*Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+
+
+/* ------- Navbar  -------*/
+.navbar-section {
+    padding: 0px;
+    margin: 0px;
+   
+    
+}
+
+.frontEnd-logo {
+    width: 110px;
+    height: 80px;
+}
+
+#navItem {
+    color: #323f4b;
+    font-size: 18px
+}
+
+/* ------tech-section ------*/
+
+.tech-section{
+    background-color: #000000;
+}
+
+.tech-heading{
+    color: #fff;
+    font-family: "Roboto";
+}
+
+/* ------Technologies ------- */
+
+.tech-para {
+    color: #c1bebe;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.tech-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    transition: 150ms;
+}
+.tech-card:hover {
+    transform: rotate(3deg);
+}
+
+.tech-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.tech-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.tech-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+/* --------- AI-DetailView-Section --------- */
+
+.artificial-section {
+    background-color: #cfcfca;
+}
+
+.artificial-detail-section {
+    background-color: #fff;
+}
+
+.artificial-heading {
+    font-family: "Bree";
+    color: #59281a;
+}
+
+.artificial-image {
+    width: 100%;
+}
+
+.artificial-description {
+    font-family: "Bree";
+    font-size: 16px;
+}
+
+span {
+    color: #000;
+    font-weight: 900;
+}
+
+/* ------- IOT-DetailView-section ------- */
+
+.iot-section {
+    background-color: #cfcfca;
+}
+
+.iot-section-container {
+    background-color: #fff;
+}
+
+.iot-image {
+    width: 100%;
+
+}
+
+.iot-section-heading {
+    font-family: "Bree";
+    color: #59281a;
+}
+
+.iot-section-description {
+    font-family: "Times New Roman";
+    font-size: 17px;
+}
+
+
+/* --------QC-sectiob details --------*/
+
+.qc-section {
+    background-color: #cfcfca;
+}
+
+.qc-section-container {
+    background-color: #fff;
+}
+
+.qc-image {
+    width: 100%;
+    height: 500px;
+
+}
+
+.qc-section-heading {
+    font-family: "Bree";
+    color: #59281a;
+}
+
+.qc-section-description {
+    font-family: "Times New Roman";
+    font-size: 17px;
+}
+
+
+
+
+
+
+/* ------- FAQ-Section -------- */
+
+.faq-section{
+    background-color: #000;
+}
+.faq-container-section{
+    background-color: #fff;
+    border-radius: 16px;
+    border-style: solid;
+}
+.faq-heading{
+    font-family: "Roboto";
+}
+.faq-description{
+    font-size: 16px;
+    font-style: oblique;
+}
+
+textarea {
+    width: 95%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid dodgerblue;
+}
+
+.contact-us-input{
+    width: 45%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 18px;
+    margin: 12px;
+}
+.follow-us-icon-container {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.follow-us-icon-container:hover{
+    background-color: rgb(28, 27, 27);
+}
+.social-items a:hover{
+    text-decoration: none;
+}
+.icon {
+    color: #ffffff;
+    font-size: 20px;
+}
