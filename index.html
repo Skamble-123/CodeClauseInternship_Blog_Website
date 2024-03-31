@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Blog</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="navbar-section " >
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://res.cloudinary.com/chakrateja/image/upload/v1690047100/teja/logo-removebg-preview_odu58h.png" class="frontEnd-logo" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-link active" href="#techh" id="navItem">Technologies</a>
+                            <a class="nav-link active" href="#faqq" id="navItem">Faq's</a>
+                            <a class="nav-link active" href="#comment" id="navItem">Comments</a>
+                            <a class="nav-link active" href="#followus" id="navItem">Follow Us</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="tech-section d-flex flex-column justify-content-center text-center mt-5 pt-5" id="techh">
+            <h1 class="tech-heading pt-5">Top 10 Emerging Technologies in future</h1>
+            <div class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-left pl-5">
+                            <p class="tech-para mb-0"> </p>
+                            <p class="tech-para"> </p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="tech-card p-3 mb-3" onclick="display('sectionArtificialDetailView')">
+                                <img src="https://res.cloudinary.com/chakrateja/image/upload/v1690005468/teja/Artificial_intelligence__pkw5iq.png" class="tech-card-image" />
+                                <h1 class="tech-card-title mt-3">Artificial Intelligence</h1>
+                                <p class="tech-card-description">
+                                    Artificial intelligence is the simulation of human intelligence processes by machines, especially
+                                    computer systems. Specific applications of AI include expert systems, natural language processing,
+                                    speech recognition and machine vision.
+                                </p>
+                            </div> 
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="tech-card p-3 mb-3" onclick="display('sectionIOTDetailView')">
+                                <img src="https://res.cloudinary.com/chakrateja/image/upload/v1690007130/teja/iot-removebg-preview_i2apnp.png" class="tech-card-image" />
+                                <h1 class="tech-card-title mt-3">Internet of Things</h1>
+                                <p class="tech-card-description">
+                                    The Internet of things describes physical objects with sensors, processing ability,
+                                    software and other technologies that connect and exchange data with other devices
+                                    and systems over the Internet or other communications networks.
+                                </p>
+                                </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="tech-card p-3 mb-3" onclick="display('sectionQCDetailView')">
+                                <img src="https://res.cloudinary.com/chakrateja/image/upload/v1690007319/teja/Quantum_Computing_removebg-preview_vprbxp.png" class="tech-card-image" />
+                                <h1 class="tech-card-title mt-3">Quantum Computing</h1>
+                                <p class="tech-card-description">
+                                    A quantum computer is a computer that exploits quantum mechanical phenomena. At small scales,
+                                    physical matter exhibits properties of both particles and waves, and quantum computing leverages
+                                    this behavior using specialized hardware.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                                <div class="tech-card p-3 mb-3">
+                                <img src="https://res.cloudinary.com/chakrateja/image/upload/v1690007785/teja/cyber_security-removebg-preview_mveq7e.png" class="tech-card-image" />
+                                <h1 class="tech-card-title mt-3">Cyber Security</h1>
+                                <p class="tech-card-description">
+                                    Computer security, cyber security, digital security or information technology security is the
+                                    protection of computer systems and networks from attack by malicious actors that may result in
+                                    unauthorized ...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="tech-card p-3 mb-3">
+                                <img src="https://res.cloudinary.com/chakrateja/image/upload/v1690007910/teja/augumented_reality-removebg-preview_ife6t4.png" class="tech-card-image" />
+                                <h1 class="tech-card-title mt-3">Augumented Reality</h1>
+                                <p class="tech-card-description">
+                                     Augmented reality is an interactive experience that combines the real world and computer-generated content.
+                                    The content can span multiple sensory modalities, including visual, auditory, haptic.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="tech-card p-3 mb-3">
+                                <img src="https://res.cloudinary.com/chakrateja/image/upload/v1690008258/teja/Robotics-removebg-preview_o2pc4q.png" class="tech-card-image" />
+                                <h1 class="tech-card-title mt-3">Robotics</h1>
+                                <p class="tech-card-description">
+                                    Robotics is an interdisciplinary branch of Electronics & Communication, computer science and engineering.
+                                    Robotics involves the design, construction, operation, and use of robots.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="tech-card p-3 mb-3">
+                                <img src="https://res.cloudinary.com/chakrateja/image/upload/v1690008383/teja/machine_learning-removebg-preview_nbaurj.png" class="tech-card-image" />
+                                <h1 class="tech-card-title mt-3">Machine Learning</h1>
+                                <p class="tech-card-description">
+                                    Machine learning is an umbrella term for solving problems for which development of algorithms by human
+                                    programmers would be cost-prohibitive, and instead the problems are solved by helping machines 'discover'
+                                    their 'own' algorithms.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="tech-card p-3 mb-3">
+                                <img src="https://res.cloudinary.com/chakrateja/image/upload/v1690008602/teja/cloud_computing-3.removebg-preview_vajkug.png" class="tech-card-image" />
+                                <h1 class="tech-card-title mt-3">Cloud Computing</h1>
+                                <p class="tech-card-description">
+                                    Cloud computing is the on-demand availability of computer system resources, especially data storage and
+                                    computing power, without direct active management by the user. Large clouds often have functions
+                                    distributed over multiple locations.
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="tech-card p-3 mb-3">
+                                <img src="https://res.cloudinary.com/chakrateja/image/upload/v1690008859/teja/automation-removebg-preview_uiok9q.png" class="tech-card-image" />
+                                <h1 class="tech-card-title mt-3">Automation</h1>
+                                <p class="tech-card-description">
+                                    Automation describes a wide range of technologies that reduce human intervention in processes,
+                                    namely by predetermining decision criteria and related actions, as
+                                    well as embodying those predeterminations in machines
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="faq-section" id="faqq">
+            <div class="container">
+                <div class="row">
+                    <div class="faq-container-section shadow-lg col-12 p-5 mb-5">
+                        <h1 class="faq-heading">FAQs</h1>
+                        <h4 class="faq-heading pt-5">Q: What is the metaverse?</h4>
+                        <p class="faq-description">
+                            A: The metaverse is a virtual world where people can interact, socialize and conduct business in a virtual environment. It is set to revolutionize
+                            the way we interact with each other and conduct business.
+                        </p>
+                        <h4 class="faq-heading pt-5">Q: How will AI and automation transform industries?</h4>
+                        <p class="faq-description">
+                            A: AI and automation will enable industries to operate more efficiently, with tasks being completed faster and more 
+                            accurately. It will also enable industries to innovate and create new products and services.
+                        </p>
+                        <h4 class="faq-heading pt-5">Q: What is zero trust security?</h4>
+                        <p class="faq-description">
+                            A: Zero trust security is a cybersecurity model that requires all users and devices to be authenticated and authorized before accessing a network. It assumes that
+                            all devices and users are potentially untrustworthy, and requires continuous monitoring to detect and prevent potential threats.
+                        </p>
+                        <h4 class="faq-heading pt-5">Q: How will AI and automation transform industries?</h4>
+                        <p class="faq-description">
+                            A: AI and automation will enable industries to operate more efficiently, with tasks being completed
+                            faster and more accurately. It will also enable industries to innovate and create new products and services.
+                        </p>
+                        <h4 class="faq-heading pt-5">Q: How can I suggest an emerging technology for the Emerging Technologies feature?</h4>
+                        <p class="faq-description">
+                            A: Read this FAQ carefully, then supply the information requested (below) in an e-mail to <a href="#">Robert Mitchell</a> or use the <a href="#">online nomination form</a>. 
+                            If we decide to cover an emerging technology for which your organization is developing products or services, we'll assign a writer who may want to speak with a technical representative
+                             at your company and any early users of the technology that you can provide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="faq-section" id="comment">
+            <div class="container">
+                <div class="row">
+                    <div class="faq-container-section shadow-lg col-12 p-5 mb-5">
+                        <h1 class="faq-heading">Comments</h1>
+                        <input class="contact-us-input" type="text" placeholder="Enter Your Name" required>
+                        <input class="contact-us-input" type="email" placeholder="Enter Your Email" required>
+                        <textarea cols="30" rows="3" placeholder="Write comment here!!"></textarea>
+                        <button class="btn btn-primary mt-3">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="faq-section" id="followus">
+            <div class="container">
+                <div class="row">
+                    <div class="faq-container-section shadow-lg p-5 mb-5 col-12">
+                        <h5 class="faq-heading"><span>Read Some other Articles :</span></h5>
+                        <p>
+                            <a href="#">The Real Impact of Internet Shutdowns</a><br>
+                            <a href="#">COVID-19: The power of remote collaboration could have long-term benefits</a><br>
+                            <a href="#">The Real Impact of Internet Shutdowns</a><br>
+                            <a href="#">3PL: Changing the face of warehouses</a><br>
+                            <a href="#">Attaining Operational Scalability through ERP Systems</a>
+                        </p>
+                        <h3 class="text-center mt-5">Follow Us</h3>
+                        <div class="col-12">
+                            <div class="social-items d-flex flex-row justify-content-center">
+                                <a href="https://twitter.com/ChakraTeja70">
+                                    <div class="follow-us-icon-container">
+                                        <i class="fab fa-twitter icon"></i>
+                                    </div>
+                                </a>
+                                <a href="https://www.instagram.com/chakrateja_/">
+                                    <div class="follow-us-icon-container">
+                                        <i class="fab fa-instagram icon"></i>
+                                    </div>
+                                </a>
+                                <a href="https://www.linkedin.com/in/chakrateja-polamarasetty-951789238/">
+                                    <div class="follow-us-icon-container">
+                                        <i class="fa fa-linkedin icon"></i>
+                                    </div>
+                                </a>
+                                <a href="https://github.com/chakrateja70">
+                                    <div class="follow-us-icon-container">
+                                        <i class="fa fa-github icon"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionArtificialDetailView">
+        <div class="artificial-section">
+            <div class="container">
+                <div class="row">
+                    <div class="artificial-detail-section shadow-lg col-12 p-5 mt-2">
+                        <h1 class="artificial-heading">Scope of AI (AI Careers)</h1>
+                        <p class="artificial-description pt-3">
+                            Fresher's should analyze their competencies and skills and choose a better AI role with the potential
+                            for upward mobility. The future scope of Artificial Intelligence continues to grow due to new job roles
+                            and advancements in the AI field. The various roles in an AI career are as follows:
+                        </p>
+                        <div class="shadow-lg">
+                            <img src="https://static.javatpoint.com/tutorial/ai/images/scope-of-ai.png" class="artificial-image">
+                        </div>
+                        <h3 class="artificial-heading pt-5">Future of AI</h3>
+                        <p class="artificial-description">
+                            The future of Artificial Intelligence is bright in India, with many organizations opting for AI automation. It is essential to understand the recent developments in AI to find suitable job roles based on your competencies.
+                        </p>
+                        <p class="artificial-description">
+                            The scope of Artificial Intelligence is limited to domestic and commercial purposes as the medical and aviation sectors are also using AI to improve their services. If AI is outperforming human efforts, then opting for AI automation will reduce costs in the long run for a business.
+                        </p>
+                        <p class="artificial-description">
+                            Automation in operational vehicles has created a buzz in the logistics industry as it is expected that automated trucks/vehicles may soon be used.
+                        </p>
+                        <h3 class="artificial-heading">Jobs in AI</h3>
+                        <div class="shadow-lg mb-3">
+                            <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/04/job-profiles-in-AI.jpg" class="artificial-image">
+                        </div>
+                        <h3 class="artificial-heading">Benefits of AI</h3>
+                        <p class="artificial-description">
+                            AI has various uses in the modern-day scenario. Industries are using AI to automate processes,
+                            and better AI algorithms are being developed every day to speed up various industry processes/tasks.
+                        </p>
+                        <div class="shadow-lg mb-2">
+                            <img src="https://static.javatpoint.com/tutorial/ai/images/scope-of-ai4.png" class="artificial-image">
+                        </div>
+                        <ul class="artificial-description pl-3">
+                            <li class="pb-2">
+                                <span>Automation - </span>AI makes sense of machines to interpret the situation and take necessary action.
+                                Some tasks can be tedious, like checking papers, submitting forms, etc., and these tasks can be automated with the help
+                                of AI with minimal human intervention. Employees in an organization/industry can focus on their core responsibility, whereas AI can automate difficult tasks.
+                            </li>
+                            <li class="pb-2">
+                                <span>Speed - </span>AI can do many things without stopping as compared to humans. In addition to automation,
+                                AI lets us complete work before the deadline, and work can be done outside working hours, and this reduces not only
+                                human labor but also provides great speed and efficiency.
+                            </li>
+                            <li class="pb-2">
+                                <span>Accuracy - </span>AI reduces the chance of error as compared to humans. There are fewer errors because the
+                                machine will always act according to the fixed AI algorithm in every scenario. AI helps us define new boundaries of
+                                accuracy and precision with less risk.
+                            </li>
+                            <li class="pb-2">
+                                <span>Exploration - </span>Artificial Intelligence has helped us to discover many unexplored places like volcanic sites,
+                                ocean floors, etc. Humans cannot visit these vulnerable sites because they cannot survive in those landscapes, and AI
+                                machines can visit such sensitive places and collect information.
+                            </li>
+                            <li class="pb-2">
+                                <span>Data Collection and Analysis - </span>Data analytics is already a trending technology in the modern-day business world. Industries and
+                                businesses know the importance of analyzing large chunks of data and extracting useful information from it.
+                            </li>
+                        </ul>
+                        <h3 class="artificial-heading">How Much Does an Artificial Intelligence (AI) Engineer Earn?</h3>
+                        <p class="artificial-description">
+                            There are a lot of factors that can affect your salary as an <a href="#">AI engineer</a>.However, the overall
+                            average salary across all industries and all experience levels in the United States is around <a href="#">$127,000.</a>
+                        </p>
+                        <h3 class="artificial-heading">AI Engineer Salary – By Experience Level</h3>
+                        <p class="artificial-description">
+                            To look at the average salary in more detail, let’s break down the typical pay brackets according to experience level.
+                        </p>
+                        <h3 class="artificial-heading">Internship</h3>
+                        <div class="shadow-lg mb-2">
+                            <img src="https://www.springboard.com/blog/wp-content/uploads/2020/06/ai-engineer-salary-by-experience-level-internship.png" class="artificial-image">
+                        </div>
+                        <p class="artificial-description">
+                            There are many different kinds of <a href="#">artificial intelligence internships. </a>Some are unpaid, but if you succeed in landing a
+                            paid position, the average salary in the United States is <a href="#">$66,761</a>.
+                        </p>
+                        <h3 class="artificial-heading">Entry-Level</h3>
+                        <div class="shadow-lg mb-2">
+                            <img src="https://www.springboard.com/blog/wp-content/uploads/2020/06/ai-engineer-salary-by-experience-level-entry-level.png" class="artificial-image">
+                        </div>
+                        <p class="artificial-description">
+                            In the United States, an entry-level AI engineer can make <a href="#">$91,000-$153,000</a>.
+                        </p>
+                        <h3 class="artificial-heading">Mid-Level</h3>
+                        <div class="shadow-lg mb-2">
+                            <img src="https://www.springboard.com/blog/wp-content/uploads/2020/06/ai-engineer-salary-by-experience-level-mid-level.png" class="artificial-image">
+                        </div>
+                        <p class="artificial-description">
+                            A mid-level engineer with 3-5 years of experience can expect to make around <a href="#">$138,000</a>.
+                        </p>
+                        <h3 class="artificial-heading">Senior-Level</h3>
+                        <div class="shadow-lg mb-2">
+                            <img src="https://www.springboard.com/blog/wp-content/uploads/2020/06/ai-engineer-salary-by-experience-level-senior-level.png" class="artificial-image">
+                        </div>
+                        <p class="artificial-description">
+                            As a senior artificial intelligence engineer, your wealth of knowledge and experience in <a href="#">machine learning
+                                and AI</a> will become very valuable to companies and organizations. At this point in your career, you can negotiate
+                            with the top companies in your industry and earn a salary as high as <a href="#">$252,000</a>.
+                        </p>
+                        <h3 class="artificial-heading">AI Engineer Salary – By Job Titles and Allied Roles</h3>
+                        <p class="artificial-description">While many AI engineering roles will simply be titled “AI engineer,” you will also find more niche and specific titles from big companies with
+                            large existing AI teams. These titles can reflect <a href="#">specializations and areas of expertise</a>, some of which pay more than others.
+                        </p>
+                        <h3 class="artificial-heading">AI-Engineer</h3>
+                        <div class="shadow-lg mb-2">
+                            <img src="https://www.springboard.com/blog/wp-content/uploads/2020/06/ai-engineer-salary-by-job-titles-and-allied-roles-ai-engineer.png" class="artificial-image">
+                        </div>
+                        <p class="artificial-description">
+                            The average salary for AI engineers in the U.S. is around <a href="#">$127,000</a>.
+                        </p>
+                        <h3 class="artificial-heading">Machine Learning Engineer</h3>
+                        <div class="shadow-lg mb-2">
+                            <img src="https://www.springboard.com/blog/wp-content/uploads/2020/06/ai-engineer-salary-by-job-titles-and-allied-roles-machine-learning-engineer.png" class="artificial-image">
+                        </div>
+                        <p class="artificial-description">
+                            It’s a specialized area that requires specific skills and experience, resulting in an annual salary of $132,465, with highs of <a href="#">$212,000</a>.
+                        </p>
+                        <h3 class="artificial-heading">Deep-Learning-Engineer</h3>
+                        <div class="shadow-lg mb-2">
+                            <img src="https://www.springboard.com/blog/wp-content/uploads/2020/06/ai-engineer-salary-by-job-titles-and-allied-roles-deep-learning-engineer.png" class="artificial-image">
+                        </div>
+                        <p class="artificial-description">
+                            Deep learning is a subset of machine learning, focusing on creating neural networks with additional layers and attempting to simulate human brain functions. This allows machines to learn and predict with more accuracy and detail compared to the single-layer neural networks used for general machine learning.
+                            The annual salaries for deep learning engineers are in the range of <a href="#">$111,000-$181,000</a>.
+                        </p>
+                        <h3 class="artificial-heading">NLP Enginner</h3>
+                        <div class="shadow-lg mb-2">
+                            <img src="https://www.springboard.com/blog/wp-content/uploads/2020/06/ai-engineer-salary-by-job-titles-and-allied-roles-nlp-engineer.png" class="artificial-image">
+                        </div>
+                        <p class="artificial-description">
+                            NLP (natural language processing) engineers work on giving machines the ability to process and understand human language.
+                            This is integral for conversational AI programs like <a href="#">ChatGTP</a> or virtual assistants like Siri.Engineers working in
+                            this role can earn up to $218,000 per year, with more typical salaries ranging from <a href="#">$109,000-$176,000</a>.
+                        </p> 
+                        <button onclick="display('sectionhome')" id="myBtn">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionIOTDetailView">
+        <div class="iot-section">
+            <div class="container">
+                <div class="row">
+                    <div class="iot-section-container col-12 shadow-lg p-5">
+                        <img src="https://intellipaat.com/blog/wp-content/uploads/2020/04/Future-Scope-of-IoT-1.jpg" class="iot-image">
+                        <h3 class="iot-section-heading pt-3">What is Internet of Things (IoT)?</h3>
+                        <p class="iot-section-description">
+                            Internet of Things (IoT) is a network of connected devices such as sensors, electronic equipment, cameras, and many more. They are programmed in such a
+                            way that IoT provides automation for the devices that are connected. Some of the common IoT devices that we come across and use in our day-to-day lives are
+                            smart TVs, refrigerators, and air conditioners. We just need to give commands to these devices using our smartphone application for operating them. Also, we
+                            use many wearable IoT devices such as smartwatches and wrist bands that show our heartbeat, blood pressure, and the distance we walked. This is all
+                            possible by smartly integrating technologies and equipment together to form an IoT product. Further, due to the advancements inL the field of AI and Machine
+                            earning, the future scope of IoT has impressively increased. The potential of IoT is not limited to healthcare. There are various other applications of IoT.
+                            In this blog, we will discuss the Future scope of IoT in Agriculture, healthcare, automotive and industry. Now, let us discuss the need for IoT.
+                        </p>
+                        <h3 class="iot-section-heading">How does IoT work?</h3>
+                        <p class="iot-section-description">
+                            Internet of Things is a combination of smart electronic devices, local area networks, the Internet, cloud servers, and the user application.
+                            An IoT device connects through a local network. Then, it transmits information through the Internet to the cloud servers. Further, the cloud
+                            servers provide the data or information of the end-user application to the IoT device. This transfer of information is a two-way communication that helps operate the IoT system.
+                        </p>
+                        <p>
+                            <span>An IoT system consists of four major components as shown in the below image:</span>
+                        </p>
+                        <div class="shadow-lg mb-3">
+                            <img src="https://intellipaat.com/blog/wp-content/uploads/2020/04/Components-of-IoT.jpg" class="iot-image">
+                        </div>
+                        <ul class="">
+                            <li>
+                                <span>IoT Devices : </span>They are smart electronic gadgets that consist of wireless sensors that help in transferring data over the Internet.
+                            </li>
+                            <li>
+                                <span>Local Network : </span>It helps in accessing the data from the devices connected to the Internet.
+                            </li>
+                            <li>
+                                <span>The Internet : </span>It helps the devices connect with the user applications and servers.
+                            </li>
+                            <li>
+                                <span>IoT Devices : </span>They are smart electronic gadgets that consist of wireless sensors that help in transferring data over the Internet.
+                            </li>
+                            <li>
+                                <span>BAck-end Services : </span>They consist of a remote server, user access and control, and mobile applications. These services constantly help in exchanging streamed data from various IoT devices and end-user applications.
+                            </li>
+                        </ul>
+                        <h3 class="iot-section-heading">Future scope of IOT</h3>
+                        <p class="iot-section-description">
+                            Internet of Things has emerged as a leading technology around the world. It has gained a lot of popularity in lesser time. Also, the advancements in Artificial Intelligence
+                            and Machine Learning have made the automation of IoT devices easy. Basically, AI and ML programs are combined with IoT devices to give them proper automation.
+                            Due to this, IoT has also expanded its area of application in various sectors. Here, in this section, we will discuss the applications and the future scope
+                            of IoT in healthcare, automotive, and agriculture industries.
+                        </p>
+                        <div class="shadow-lg mb-3">
+                            <img src="https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/e/c/ecd74ecfe923286b6bc4e507ecd6702783effea2493f98363dc06962754c9b98/future-of-iot-mc-slide2.png" class="iot-image">
+                        </div>
+                        <h3 class="iot-section-heading">Health Care</h3>
+                        <p class="iot-section-description">
+                            In this section, we will see the future of IoT in healthcare sector. IoT has proved to be one of the best tools for the healthcare industry. It helps provide
+                            advanced healthcare facilities to patients, doctors, and researchers. These facilities include smart diagnosis, wearable devices for tracking health,
+                            patient management, and many more. Furthermore, IoT devices have reduced unnecessary strain on the healthcare system.
+                        </p>
+                        <div class="shadow-lg mb-3">
+                            <img src="https://intellipaat.com/blog/wp-content/uploads/2020/04/healtcare-application-1.jpg" class="iot-image">
+                        </div>
+                        <p class="iot-section-description">The healthcare devices can directly send the patients’ data health to doctors over a safe network. This allows the doctors to diagnose the patients from remote locations.</p>
+                        <h6>Reasons for IoT being beneficial in the healthcare industry are as follows :</h6>
+                        <h6>1. Error reduction in treatments</h6>
+                        <p class="iot-section-description">
+                            With the help of IoT devices, there is a decrease in manual errors in diagnosing patients. Thus, patients can get proper treatment on time. Also, the 24/7 diagnosis through
+                            gadgets gives a more clear idea about patients’ health when compared to manual diagnosis.
+                        </p>
+                        <h6>2. Decrease in the cost of treatments</h6>
+                        <p class="iot-section-description">
+                            Manual diagnosis requires time and the use of various types of costly equipment, along with other hospital charges. Due to this, the overall cost of the treatment increases.
+                            We can reduce these costs by using IoT gadgets. Also, the hospital charges and congestion in hospitals can be reduced as patients can be diagnosed from their respective locations.
+                        </p>
+                        <h6>3. Availability of specialists in remote locations</h6>
+                        <p class="iot-section-description">
+                            Internet of Things solves one of the major problems of the healthcare industry that is the availability of doctors, especially specialists, in remote locations.
+                            With the help of IoT devices, the treatment of patients in the physical absence of doctors has become possible. The patients just need to wear the device.
+                            Then, the device will send all the real-time data of patients’ health to the respective doctors for analyzing the condition. In this way, the scope of
+                            Internet of Things is helping the healthcare sector give proper treatment to the needy.
+                        </p>
+                        <h3 class="iot-section-heading">Agriculture</h3>
+                        <p class="iot-section-description">
+                            One of the three basic human needs is food. To fulfill the need for food, we do farming. However, now, as the population of the world is increasing, the agricultural
+                            industry is facing many challenges. Also, changes in weather conditions and climate hugely impact the agricultural industry. To meet the rising demand for food,
+                            the industry has hence adopted technology to increase productivity. It includes the use of precision farming, agricultural drones, and smart farming applications.
+                        </p>
+                        <div class="shadow-lg mb-3">
+                            <img src="https://intellipaat.com/blog/wp-content/uploads/2020/04/IoT-in-agriculture1.jpg" class="iot-image">
+                        </div>
+                        <p class="iot-section-description">All these are built on top of the application of Internet of Things. Now, let us discuss how precision farming, smart farming applications, and agricultural drones help in increasing the productivity of the land.</p>
+                        <h6>Precision Farming</h6>
+                        <p class="iot-section-description">
+                            In agriculture, Information and Communication Technology is a tool used for smart farming. With the help of IoT-based devices, crop fields are observed. The technology
+                            uses sensors to calculate the moisture of soil, humidity, and temperature. Also, it uses an automated irrigation system to make efficient use of water.
+                            Precision farming helps farmers monitor their fields and boost productivity.
+                        </p>
+                        <h6>Agricultural Drones</h6>
+                        <p class="iot-section-description">
+                            Drones used for agriculture and farming are one of the best applications of Internet of Things. They are used to enhance agricultural processes. We use agricultural
+                            drones for planting crops, irrigating fields, spraying of pesticides, and monitoring the fields. With the help of drones, it becomes easier to evaluate
+                            the health of crops. This is all possible with the help of smart IoT-based devices that are used to make agricultural drones.
+                        </p>
+                        <h6>Smart greenhouses</h6>
+                        <p class="iot-section-description">
+                            Farmers use greenhouse farming to enhance the productivity of crops. In greenhouse farming, the environmental factors that affect the growth of
+                            crops are controlled by manual intervention. However, manually controlling the mechanism for the growth of crops is less productive. The
+                            emergence of IoT and technological advancements has led to the creation of IoT-based greenhouses that consist of various devices such as sensors, climate controllers, etc.
+                        </p>
+                        <h3 class="iot-section-heading">Automotive Industry</h3>
+                        <p class="iot-section-description">
+                            In the 21st century, the application of IoT is revolutionizing the automotive industry. One of the major applications is the creation of self-driving cars
+                            that has changed the trends of the automotive industry. Engineers have created self-driving cars to reduce manual errors and ensure a safe drive.
+                            Various companies around the world are creating self-driving vehicles including Google, Tesla, Mercedes-Benz, Volvo, Audi, and many more.
+                            These self-driving cars use various technologies such as Data Science, Artificial Intelligence, Deep Learning, and IoT.
+                            IoT devices are programmed in such a way that they assist in creating an automated system for self-driving cars.
+                        </p>
+                        <div class="shadow-lg mb-3">
+                            <img src="https://intellipaat.com/blog/wp-content/uploads/2020/04/IoT-in-automotive.jpg" class="iot-image">
+                        </div>
+                        <p class="iot-section-description">
+                            These IoT devices consist of HD cameras, thermal sensors, smart navigators, speed controller, rain sensors, wireless connectivity, and proximity sensors.
+                            While using these cars, you need to enter your location and the destination. Then, the navigator helps locate the destination and tries to find the
+                            shortest path. After that, the IoT-based HD cameras help in getting the visuals of the surrounding and send the data to the AI-based systems. These systems
+                            analyze and visualize the data of the surrounding and accordingly fix the response of the self-driving cars. Also, there are IoT-based speed
+                            controllers that help regulate the speed of these cars according to the traffic and congestion. This is how the scope of IoT is changing the trends in the automotive industry.
+                        </p>
+                        <h3 class="iot-section-heading">Jobs in IOT</h3>
+                        <p class="iot-section-description">
+                            As India is a developing country, it has a wide IoT scope. According to Naukri.com, the future scope of IoT in India is very high as there are 117,114 job openings for an IoT Developer here.
+                            On the other hand, in the United States, the demand for an IoT Developer has jumped over 300 percent.
+                        </p>
+                        <p class="iot-section-description">
+                            As we know that today every electronic device comes with an installed IoT system, there is a bright future scope of IoT. Let us look at the below graph to know the stats of jobs that has been available for an IoT Developer over the years.
+                        </p>
+                        <div class="shadow-lg mb-3">
+                            <img src="https://intellipaat.com/blog/wp-content/uploads/2020/04/Jobs-in-IoT.jpg" class="iot-image">
+                        </div>
+                        <h3 class="iot-section-heading">Salary of IOT Developers</h3>
+                        <p class="iot-section-description">
+                            Coming to the salary figures, the average salary provided to an IoT Developer in the United States is US$164,417 per year. In India, the average annual salary is ₹850k. This is an attractive package to start your career with.
+                        </p>
+                        <p class="iot-section-description">This is all about the future scope of IoT and how it is changing the world with its applications.</p>
+                        <div class="text-right">
+                        <button onclick="display('sectionhome')" id="iot-back-button">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+    <div id="sectionQCDetailView">
+        <div class="qc-section">
+            <div class="container">
+                <div class="row">
+                    <div class="qc-section-container col-12 shadow-lg p-5">
+                        <img src="https://takeleap.com/assets/images/blog/072a44116fb932524a4f84f452958dc9.jpg" class="qc-image">
+                        <h3 class="qc-section-heading pt-3">What is Quantum Computing (QC)?</h3>
+                        <p class="iot-section-description">
+                            A quantum computer is a computer that takes advantage of quantum mechanical phenomena.
+                           At small scales, physical matter exhibits properties of both particles and waves, and quantum computing leverages this behavior, specifically quantum superposition and entanglement, using specialized hardware that supports the preparation and manipulation of quantum states.
+                            Classical physics cannot explain the operation of these quantum devices, and a scalable quantum computer could perform some calculations exponentially faster (with respect to input size scaling)[2] than any modern "classical" computer. In particular, a large-scale quantum computer could break widely used encryption schemes and aid physicists in performing physical simulations; however, the current state of the technology is largely experimental and impractical, with several obstacles to useful applications. Moreover, scalable quantum computers do not hold promise for many practical tasks, and for many important tasks quantum speedups are proven impossible.
+                            The basic unit of information in quantum computing is the qubit, similar to the bit in traditional digital electronics. Unlike a classical bit, a qubit can exist in a superposition of its two "basis" states. When measuring a qubit, the result is a probabilistic output of a classical bit, therefore making quantum computers nondeterministic in general. If a quantum computer manipulates the qubit in a particular way, wave interference effects can amplify the desired measurement results. The design of quantum algorithms involves creating procedures that allow a quantum computer to perform calculations efficiently and quickly.
+                            Physically engineering high-quality qubits has proven challenging. If a physical qubit is not sufficiently isolated from its environment, it suffers from quantum decoherence, introducing noise into calculations. Paradoxically, perfectly isolating qubits is also undesirable because quantum computations typically need to initialize qubits, perform controlled qubit interactions, and measure the resulting quantum states. Each of those operations introduces errors and suffers from noise, and such inaccuracies accumulate.
+                        </p>
+                        <h3 class="qc-section-heading">Understanding Quantum Computing</h3>
+                        <p class="qc-section-description">
+                 The field of quantum computing emerged in the 1980s. It was discovered that certain computational problems could be tackled more efficiently with quantum algorithms than with their classical counterparts.
+                Quantum computing has the capability to sift through huge numbers of possibilities and extract potential solutions to complex problems and challenges. Where classical computers store information as bits with either 0s or 1s, quantum computers use qubits. Qubits carry information in a quantum state that engages 0 and 1 in a multidimensional way.
+                Such massive computing potential and the projected market size for its use have attracted the attention of some of the most prominent companies. These include IBM, Microsoft, Google, D-Waves Systems, Alibaba, Nokia, Intel, Airbus, HP, Toshiba, Mitsubishi, SK Telecom, NEC, Raytheon, Lockheed Martin, Rigetti, Biogen, Volkswagen, and Amgen. 
+                        </p>
+                        
+                        
+                        <p class="qc-section-description"></p>
+                        <button onclick="display('sectionhome')" id="qc-back-button">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src="blog.js"></script>
+</body>
+
+</html>
